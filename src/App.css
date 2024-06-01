@@ -1,107 +1,107 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: #f7f7f7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .App {
-  width: 100%;
-  max-width: 500px;
-  background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
-  font-size: 2rem;
-  color: #333;
+    font-size: 2rem;
+    color: #333;
 }
 
 .inputContainer {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 input {
-  padding: 10px;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  width: 70%;
-  font-size: 1rem;
-  outline: none;
-  transition: border 0.3s ease;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
 }
 
 input:focus {
-  border: 2px solid #007BFF;
+    border: 2px solid #007BFF;
 }
 
 button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007BFF;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 .taskList {
-  list-style: none;
-  padding: 0;
-  width: 100%;
+    list-style: none;
+    padding: 0;
+    width: 100%;
 }
 
 .task {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .task.completed span {
-  text-decoration: line-through;
-  color: #888;
+    text-decoration: line-through;
+    color: #888;
 }
 
 .taskButtons button {
-  margin-left: 10px;
-  background-color: #28a745;
+    margin-left: 10px;
+    background-color: #28a745;
 }
 
 .taskButtons button:hover {
-  background-color: #218838;
+    background-color: #218838;
 }
 
 .taskButtons button:nth-child(2) {
-  background-color: #dc3545;
+    background-color: #dc3545;
 }
 
 .taskButtons button:nth-child(2):hover {
-  background-color: #c82333;
+    background-color: #c82333;
 }
